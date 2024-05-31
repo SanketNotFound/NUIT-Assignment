@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = ""; // Replace with your MySQL password
+$username = "root"; 
+$password = ""; 
 $dbname = "EmployeeManagement";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
